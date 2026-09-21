@@ -30,9 +30,11 @@ To write a Python program that sorts a dictionary's:
 ---
 
 ## 🧪Program
-Add Code here
+d = eval(input("Enter dictionary: ")) sorted_keys = dict(sorted(d.items())) sorted_values = dict(sorted(d.items(), key=lambda item: item[1])) print("Sorted by keys:", sorted_keys) print("Sorted by values:", sorted_values)
 
 ## Sample Output
+Enter dictionary: {'b': 'banana', 'a': 'apple', 'c': 'cherry'} Sorted by keys: {'a': 'apple', 'b': 'banana', 'c': 'cherry'} Sorted by values: {'a': 'apple', 'b': 'banana', 'c': 'cherry'}
 
 ## Result
+The program executed successfully and sorted the dictionary by keys and values in alphabetical order using built-in sorting functions.
 
